@@ -1,0 +1,20 @@
+By Fernando Giovanini - 2012
+	www.giovanini.me
+	fernando[at]giovanini.me
+	https://github.com/fernandogiovanini/CardGen
+
+All icons from www.yootheme.com/icons/
+
+HOW TO USE THESE LIBS
+
+To generate a Visa credit card number:
+	var cardNumberGenerator = new CardNumberGenerator( new LuhnAlgorithm1() );
+	var cardSettingsFactory = new CardSettingsFactory();
+	var number = cardNumberGenerator.generate( 
+		cardSettingsFactory.makeCardSettings( 'visa' ) );
+	alert(number);
+
+If you need to generate credit card number to another issuer, create a 
+NewIssuerSettings class that implements the getIin(), getLength() and generate()
+methods and add it to the CardSettingsFactory()
+
