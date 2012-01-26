@@ -1,0 +1,12 @@
+{
+  "name": "CardGen",
+  "description": "Generate random credit card numbers",
+  "version": "0.2",
+  "permissions": ["contextMenus","tabs", "http://*/", "https://*/"],
+  "icons":{
+	"16": "images/icon_16.png", 
+	"24": "images/icon_24.png",
+	"128": "images/icon_128.png" 
+  },
+  "background_page": "background.html"
+}
