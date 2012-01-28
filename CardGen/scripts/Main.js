@@ -1,5 +1,5 @@
 /*
- * Code by www.giovanini.me - Fernando Giovanini (fernando@giovanini.me)
+ * By Fernando Giovanini (fernando@giovanini.me)
  * 
  * Icons by http://www.yootheme.com/icons
  */
